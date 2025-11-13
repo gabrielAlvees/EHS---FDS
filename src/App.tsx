@@ -7,7 +7,10 @@ function App() {
 
   return (
     <Container>
-        <Link href="./pdf/a/a.pdf" target="_blank">
+        <Link         
+        href="/pdfs/a.pdf"
+        target="_blank"
+        rel="noopener noreferrer">
           Almoxarifado
         </Link>
 
