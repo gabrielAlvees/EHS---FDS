@@ -19,7 +19,7 @@ function App() {
           Geral
         </Link>
 
-        <Link href="">
+        <Link href=""> 
           Laboratorio
         </Link>
 
