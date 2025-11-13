@@ -7,7 +7,7 @@ function App() {
 
   return (
     <Container>
-        <Link href="../public/a/a.pdf" target="_blank">
+        <Link href="pdf/a/a.pdf" target="_blank">
           Almoxarifado
         </Link>
 
