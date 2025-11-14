@@ -1,4 +1,5 @@
 import {
+  Title,
   Container,
   Link,
 } from "./App.ts";
@@ -6,11 +7,15 @@ import {
 function App() {
 
   return (
-    <Container>
+    <>
+      <Title>
+        Consulta de FDS - Segurança do Trabalho
+      </Title>
+      <Container>
         <Link         
-        href="/pdfs/a.pdf"
-        target="_blank"
-        rel="noopener noreferrer">
+          href="/pdfs/a.pdf"
+          target="_blank"
+          rel="noopener noreferrer">
           Almoxarifado
         </Link>
 
@@ -33,7 +38,9 @@ function App() {
         <Link href="">
           Produção
         </Link>
-    </Container>
+      </Container>
+    </>
+
   )
 }
 
