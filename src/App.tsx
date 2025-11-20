@@ -9,7 +9,7 @@ import {
 } from "./App.ts";
 
 const almoxarifadoPDFs = [
-  "/pdfs/01FISPQ-Oxigenio-Liquido.pdf",
+  "/pdfs/Almoxarifado/01FISPQ-Oxigenio-Liquido.pdf",
 ];
 
 function App() {
