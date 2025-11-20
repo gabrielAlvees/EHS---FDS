@@ -61,14 +61,8 @@ export const LinkButton = styled.a`
     transform: translateY(-3px);
     box-shadow: 0 6px 12px rgba(0,0,0,0.2);
   }
-
-  &:active {
-    transform: translateY(0px);
-    box-shadow: 0 3px 6px rgba(0,0,0,0.15);
-  }
 `;
 
-/* Lista flexível para botões numerados */
 export const SmallButtonList = styled.div`
   width: 100%;
   max-width: 350px;
@@ -78,28 +72,6 @@ export const SmallButtonList = styled.div`
   gap: 10px;
 
   margin-bottom: 20px;
-`;
-
-/* Botões pequenos numerados */
-export const SmallButton = styled.button`
-  background-color: orange;
-  color: white;
-  border: none;
-  border-radius: 8px;
-
-  height: 45px;
-
-  font-size: 1rem;
-  font-weight: bold;
-
-  cursor: pointer;
-  transition: 0.2s ease;
-
-  &:hover {
-    background-color: #ff9f1a;
-    transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
-  }
 `;
 
 export const SmallLinkButton = styled.a`
@@ -156,10 +128,4 @@ export const ButtonMain = styled.button`
     transform: translateY(-3px);
     box-shadow: 0 6px 12px rgba(0,0,0,0.2);
   }
-
-  &:active {
-    transform: translateY(0px);
-    box-shadow: 0 3px 6px rgba(0,0,0,0.15);
-  }
 `;
-
