@@ -9,7 +9,14 @@ import {
 } from "./App.ts";
 
 const almoxarifadoPDFs = [
-  "/pdfs/Almoxarifado/01FISPQ-Oxigenio-Liquido.pdf",
+  {
+    nome: "01. FDS Oxigênio Líquido",
+    pdf: "/pdfs/01FISPQ-Oxigenio-Liquido.pdf"
+  },
+  {
+    nome: "02. FDS Nitrogênio Líquido",
+    pdf: "/pdfs/02FISPQ-Nitrogenio-Liquido.pdf"
+  }
 ];
 
 function App() {
@@ -27,14 +34,14 @@ function App() {
 
         {showAlmox && (
           <SmallButtonList>
-            {almoxarifadoPDFs.map((pdf, index) => (
+            {almoxarifadoPDFs.map((item, index) => (
               <SmallLinkButton
                 key={index}
-                href={pdf}
+                href={item.pdf}
                 target="_blank"
-                rel="noopener noreferrer"
               >
-                {index + 1}
+                {item.nome}
+                
               </SmallLinkButton>
             ))}
           </SmallButtonList>

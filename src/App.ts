@@ -68,10 +68,14 @@ export const SmallButtonList = styled.div`
   max-width: 350px;
 
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
   gap: 10px;
 
   margin-bottom: 20px;
+
+  @media (max-width: 400px) {
+    grid-template-columns: 1fr; /* em celulares muito pequenos */
+  }
 `;
 
 export const SmallLinkButton = styled.a`
@@ -81,9 +85,11 @@ export const SmallLinkButton = styled.a`
   text-decoration: none;
   border-radius: 8px;
 
-  height: 45px;
+  min-height: 45px;
+  padding: 8px 10px;
+  text-align: center;
 
-  font-size: 1rem;
+  font-size: 0.95rem;
   font-weight: bold;
 
   display: flex;
