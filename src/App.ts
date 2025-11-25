@@ -15,6 +15,7 @@ export const Title = styled.h1`
 `;
 
 export const Container = styled.div`
+  font-family: Arial, Helvetica, sans-serif;
   width: 90%;
   max-width: 450px;
   min-height: 60vh;
