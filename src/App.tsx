@@ -8,10 +8,12 @@ import {
   SmallLinkButton 
 } from "./App.ts";
 
-import { almoxarifadoPDFs } from "./pdfs.ts";
+import { pdfsAlmoxarifado } from "./AlmoxarifadoPdfs.ts";
+import { pdfsCozinha } from "./CozinhaPdfs.ts";
 
 function App() {
   const [showAlmox, setShowAlmox] = useState(false);
+  const [showCozinha, setShowCozinha] = useState(false);
 
   return (
     <>
@@ -25,7 +27,7 @@ function App() {
 
         {showAlmox && (
           <SmallButtonList>
-            {almoxarifadoPDFs.map((item, index) => (
+            {pdfsAlmoxarifado.map((item, index) => (
               <SmallLinkButton
                 key={index}
                 href={item.pdf}
@@ -38,9 +40,24 @@ function App() {
           </SmallButtonList>
         )}
 
-        <LinkButton href="/pdfs/cozinha.pdf" target="_blank">
+        <LinkButton onClick={() => setShowCozinha(!showCozinha)}>
           Cozinha
         </LinkButton>
+
+        {showCozinha && (
+          <SmallButtonList>
+            {pdfsCozinha.map((item, index) => (
+              <SmallLinkButton
+                key={index}
+                href={item.pdf}
+                target="_blank"
+              >
+                {item.nome}
+                
+              </SmallLinkButton>
+            ))}
+          </SmallButtonList>
+        )}
 
         <LinkButton href="">
           Geral

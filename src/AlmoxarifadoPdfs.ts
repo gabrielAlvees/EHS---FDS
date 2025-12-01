@@ -1,4 +1,4 @@
-export const almoxarifadoPDFs = [
+export const pdfsAlmoxarifado = [
   {
     nome: "01. FDS Oxigênio Líquido",
     pdf: "/pdfs/Almoxarifado/01FISPQ-Oxigenio-Liquido.pdf"
