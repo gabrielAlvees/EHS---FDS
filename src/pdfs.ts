@@ -275,11 +275,191 @@ export const almoxarifadoPDFs = [
     pdf: "/pdfs/Almoxarifado/69. FISPQ Tinta Acrilica Azul Franca.pdf"
   },
   {
-    nome: "70. ",
+    nome: "70. - ",
     pdf: ""
   },
   {
     nome: "71. FISPQ Tinta Esmalte Sintético",
     pdf: "/pdfs/Almoxarifado/71. FISPQ Tinta Esmalte Sintetico .pdf"
+  },
+  {
+  nome: "72. FISPQ Esmalte Sint. B",
+  pdf: "/pdfs/Almoxarifado/72. FISPQ Esmalte Sint. B.pdf"
+  },
+  {
+    nome: "73. FISPQ Tinta Esmalte Sintetico Amarelo",
+    pdf: "/pdfs/Almoxarifado/73. FISPQ Tinta Esmalte Sintetico Amarelo.pdf"
+  },
+  {
+    nome: "74. FISPQ Tinta Acrílica Branca",
+    pdf: "/pdfs/Almoxarifado/74. FISPQ Tinta Acrilica Branca.pdf"
+  },
+  {
+    nome: "75. FISPQ Tinta Esm. Sint. Preto Brilhante",
+    pdf: "/pdfs/Almoxarifado/75. FISPQ Tinta Esm. Sint. Preto Brilhante.pdf"
+  },
+  {
+    nome: "76. FISPQ Tinta Alta Temp. Alumínio 400°",
+    pdf: "/pdfs/Almoxarifado/76. FISPQ Tinta Alta Temp. Aluminio 400°.pdf"
+  },
+  {
+    nome: "79. FDS Óleo Sintético ROTOX TEND DUT",
+    pdf: "/pdfs/Almoxarifado/79. FDS Oleo Sintetico ROTOX TEND DUT.pdf"
+  },
+  {
+    nome: "80. -",
+    pdf: ""
+  },
+  {
+    nome: "81. FDS Graxa MP 2 AZUL – BLUTHER",
+    pdf: "/pdfs/Almoxarifado/81. FDS Graxa MP 2 AZUL - BLUTHER.pdf"
+  },
+  {
+    nome: "83. FISPQ Thinner Premium Eucatex",
+    pdf: "/pdfs/Almoxarifado/83. FISPQ Thinner Premium Eucatex.pdf"
+  },
+  {
+    nome: "84. FISPQ Aguarrás Itaquá",
+    pdf: "/pdfs/Almoxarifado/84. FISPQ Aguarras Itaqua.pdf"
+  },
+  {
+    nome: "85. FISPQ Fluido de Corte 2",
+    pdf: "/pdfs/Almoxarifado/85. FISPQ Fluido de Corte 2.pdf"
+  },
+  {
+    nome: "86. FISPQ Queroseme Polaris",
+    pdf: "/pdfs/Almoxarifado/86. FISPQ Queroseme Polaris.pdf"
+  },
+  {
+    nome: "87. FISPQ Thinner Limpeza Itaquá",
+    pdf: "/pdfs/Almoxarifado/87. FISPQ Thinner Limpeza Itaqua.pdf"
+  },
+  {
+    nome: "88. FDS Tinta Esmalte Si",
+    pdf: "/pdfs/Almoxarifado/88. FDS Tinta Esmalte Si.pdf"
+  },
+  {
+    nome: "89. FISPQ Tinta Epoxi Cinza Temp. 120°C",
+    pdf: "/pdfs/Almoxarifado/89. FISPQ Tinta Epoxi Cinza Temp. 120°C.pdf"
+  },
+  {
+    nome: "90. FISPQ Tinta Esmalte Sintético Alumínio",
+    pdf: "/pdfs/Almoxarifado/90. FISPQ Tinta Esmalte Sintetico Aluminio.pdf"
+  },
+  {
+    nome: "91. FISPQ LUBRAX COMPOSR PAO 46",
+    pdf: "/pdfs/Almoxarifado/91. FISPQ LUBRAX COMPOSR PAO 46.pdf"
+  },
+  {
+    nome: "92. FISPQ LUBRAX GL 5 140",
+    pdf: "/pdfs/Almoxarifado/92. FISPQ LUBRAX GL 5 140.pdf"
+  },
+  {
+    nome: "93. FISPQ Óleo Transmissão UNTRACTOR",
+    pdf: "/pdfs/Almoxarifado/93. FISPQ Oleo Transmissao UNTRACTOR.pdf"
+  },
+  {
+    nome: "94. FISPQ LUBRAX GL 5 80W90",
+    pdf: "/pdfs/Almoxarifado/94. FISPQ LUBRAX GL 5 80W90.pdf"
+  },
+  {
+    nome: "95. FDS Hidróxido de Sódio 40% F195",
+    pdf: "/pdfs/Almoxarifado/95. FDS Hidroxido de Sodio 40% F195.pdf"
+  },
+  {
+  nome: "96. FISPQ LUBRAX GEAR 460",
+  pdf: "/pdfs/Almoxarifado/96. FISPQ LUBRAX GEAR 460.pdf"
+  },
+  {
+    nome: "97. FISPQ LUBRAX EXTRA TURBO CH-4",
+    pdf: "/pdfs/Almoxarifado/97. FISPQ LUBRAX EXTRA TURBO CH-4.pdf"
+  },
+  {
+    nome: "99. FISPQ Lubrax Turbo 20W-50",
+    pdf: "/pdfs/Almoxarifado/99. FISPQ Lubrax Turbo 20W-50.pdf"
+  },
+  {
+    nome: "106. FISPQ Creme Proteção Mãos – LUVER",
+    pdf: "/pdfs/Almoxarifado/106. FISPQ Creme Protecao Maos - LUVER.pdf"
+  },
+  {
+    nome: "107. FISPQ Adesivo de Silicone Ac",
+    pdf: "/pdfs/Almoxarifado/107. FISPQ Adesivo de Silicone Ac.pdf"
+  },
+  {
+    nome: "108. FISPQ Piso acrílico premium – Amarelo",
+    pdf: "/pdfs/Almoxarifado/108. FISPQ Piso acrilico premium- Amarelo.pdf"
+  },
+  {
+    nome: "109. FISPQ Pretinho Gitanes",
+    pdf: "/pdfs/Almoxarifado/109. FISPQ Pretinho Gitanes.pdf"
+  },
+  {
+    nome: "110. FISPQ Removedor Zulu sem cheiro",
+    pdf: "/pdfs/Almoxarifado/110. FISPQ Removedor Zulu sem cheiro.pdf"
+  },
+  {
+    nome: "111. FISPQ Thinner 700 Polaris",
+    pdf: "/pdfs/Almoxarifado/111. FISPQ Thinner 700 Polaris.pdf"
+  },
+  {
+    nome: "112. FISPQ Tincar Líquido Radex - Preto",
+    pdf: "/pdfs/Almoxarifado/112. FISPQ Tincar Liquido Radex - Preto.pdf"
+  },
+  {
+    nome: "113. FISPQ Tincar Líquido Radex - Azul",
+    pdf: "/pdfs/Almoxarifado/113. FISPQ Tincar Liquido Radex - Azul.pdf"
+  },
+  {
+    nome: "114. FISPQ Marcador Permanente – Pilot",
+    pdf: "/pdfs/Almoxarifado/114. FISPQ Marcador Permanente - Pilot.pdf"
+  },
+  {
+    nome: "115. FISPQ Marcador para retroprojetor – Pilot",
+    pdf: "/pdfs/Almoxarifado/115. FISPQ Marcador para retro projetor - Pilot.pdf"
+  },
+  {
+    nome: "116. FISPQ Super Bonder Mega",
+    pdf: "/pdfs/Almoxarifado/116. FISPQ Super Bonder Mega.pdf"
+  },
+  {
+    nome: "117. TEKBOND – 793",
+    pdf: "/pdfs/Almoxarifado/117. TEKBOND - 793.pdf"
+  },
+  {
+    nome: "118. FISPQ WD-40 Produto Multiuso Aerossol",
+    pdf: "/pdfs/Almoxarifado/118. FISPQ WD-40 Produto Multituso Aerossol.pdf"
+  },
+  {
+    nome: "119. FISPQ Descarbonizante Spray – MP80",
+    pdf: "/pdfs/Almoxarifado/119. FISPQ Descarbonizante Spray - MP80.pdf"
+  },
+  {
+    nome: "120. FISPQ Limpa Contato – MP80",
+    pdf: "/pdfs/Almoxarifado/120. FISPQ Limpa Contato - MP80.pdf"
+  },
+  {
+    nome: "121. FISPQ TEK BOND 138",
+    pdf: "/pdfs/Almoxarifado/121. FISPQ TEK BOND 138.pdf"
+  },
+  {
+    nome: "122. FDS TEK BOND 128",
+    pdf: "/pdfs/Almoxarifado/122. FDS TEK BOND 128.pdf"
+  },
+  {
+    nome: "123. FDS GLP ULTRAGAZ",
+    pdf: "/pdfs/Almoxarifado/123. FDS GLP ULTRAGAZ.pdf"
+  },
+  {
+  nome: "124. FDS CORRETIVO LÍQUIDO",
+  pdf: "/pdfs/Almoxarifado/124. FDS CORRETIVO LIQUIDO.pdf"
+  },
+  {
+    nome: "125. FDS PRIMER UNIVERSAL CINZA",
+    pdf: "/pdfs/Almoxarifado/125. FDS PRIMER UNIVERSAL CINZA.pdf"
+  },
+  {
+    nome: "126. FDS Álcool Isopropílico",
+    pdf: "/pdfs/Almoxarifado/126. FDS Alcool Isopropilico.pdf"
   }
 ];
