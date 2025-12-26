@@ -13,13 +13,15 @@ import { pdfsCozinha } from "./CozinhaPdfs.ts";
 import { pdfsGeral } from "./GeralPdfs.ts";
 import { pdfsLaboratorio } from "./LaboratorioPdfs.ts";
 import { pdfsManutencao } from "./ManutencaoPdfs.ts";
+import { pdfsProducao } from "./ProducaoPdfs.ts";
 
 function App() {
   const [showAlmox, setShowAlmox] = useState(false);
   const [showCozinha, setShowCozinha] = useState(false);
   const [showGeral, setShowGeral] = useState(false);
   const [showLaboratorio, setShowLaboratorio] = useState(false);
-    const [showManutencao, setShowManutencao] = useState(false);
+  const [showManutencao, setShowManutencao] = useState(false);
+  const [showProducao, setShowProducao] = useState(false);
 
   return (
     <>
@@ -122,9 +124,24 @@ function App() {
           </SmallButtonList>
         )}
 
-        <LinkButton href="">
+        <LinkButton onClick={() => setShowProducao(!showProducao)}>
           Produção
         </LinkButton>
+
+        {showProducao && (
+          <SmallButtonList>
+            {pdfsProducao.map((item, index) => (
+              <SmallLinkButton
+                key={index}
+                href={item.pdf}
+                target="_blank"
+              >
+                {item.nome}
+                
+              </SmallLinkButton>
+            ))}
+          </SmallButtonList>
+        )}
       </Container>
     </>
   );
