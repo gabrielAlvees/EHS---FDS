@@ -10,10 +10,16 @@ import {
 
 import { pdfsAlmoxarifado } from "./AlmoxarifadoPdfs.ts";
 import { pdfsCozinha } from "./CozinhaPdfs.ts";
+import { pdfsGeral } from "./GeralPdfs.ts";
+import { pdfsLaboratorio } from "./LaboratorioPdfs.ts";
+import { pdfsManutencao } from "./ManutencaoPdfs.ts";
 
 function App() {
   const [showAlmox, setShowAlmox] = useState(false);
   const [showCozinha, setShowCozinha] = useState(false);
+  const [showGeral, setShowGeral] = useState(false);
+  const [showLaboratorio, setShowLaboratorio] = useState(false);
+    const [showManutencao, setShowManutencao] = useState(false);
 
   return (
     <>
@@ -59,17 +65,62 @@ function App() {
           </SmallButtonList>
         )}
 
-        <LinkButton href="">
+        <LinkButton onClick={() => setShowGeral(!showGeral)}>
           Geral
         </LinkButton>
 
-        <LinkButton href="">
+        {showGeral && (
+          <SmallButtonList>
+            {pdfsGeral.map((item, index) => (
+              <SmallLinkButton
+                key={index}
+                href={item.pdf}
+                target="_blank"
+              >
+                {item.nome}
+                
+              </SmallLinkButton>
+            ))}
+          </SmallButtonList>
+        )}
+
+        <LinkButton onClick={() => setShowLaboratorio(!showLaboratorio)}>
           Laboratório
         </LinkButton>
 
-        <LinkButton href="">
+        {showLaboratorio && (
+          <SmallButtonList>
+            {pdfsLaboratorio.map((item, index) => (
+              <SmallLinkButton
+                key={index}
+                href={item.pdf}
+                target="_blank"
+              >
+                {item.nome}
+                
+              </SmallLinkButton>
+            ))}
+          </SmallButtonList>
+        )}
+
+        <LinkButton onClick={() => setShowManutencao(!showManutencao)}>
           Manutenção
         </LinkButton>
+
+        {showManutencao && (
+          <SmallButtonList>
+            {pdfsManutencao.map((item, index) => (
+              <SmallLinkButton
+                key={index}
+                href={item.pdf}
+                target="_blank"
+              >
+                {item.nome}
+                
+              </SmallLinkButton>
+            ))}
+          </SmallButtonList>
+        )}
 
         <LinkButton href="">
           Produção
